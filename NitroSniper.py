@@ -7,9 +7,9 @@ client = discord.Client()
 
 @client.event
 async def on_ready():
-	print('[ + ] Sniper Ready')
+	print(f'[ + ] Sniper {client.user.name} Ready')
 
-async def on_message():
+async def on_message(message):
 	if 'discord.gift/' in message.content or 'discord.com/gifts/' in message.content:
 		code = message.content.split('/')[-1]
 		redeem_link = f'https://discord.com/api/v8/entitlements/gift-codes/{code}/redeem'
