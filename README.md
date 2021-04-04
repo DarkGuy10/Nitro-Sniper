@@ -3,6 +3,7 @@
 
 # Warning!
 Self bots like this break Discord's TOS and hence your account may get **banned**. <br>
+I do not endorse these in anyway, this code is just a test.
 
 # Requirements:
 Following python modules are required:
